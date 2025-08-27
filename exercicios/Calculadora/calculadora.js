@@ -1,5 +1,5 @@
 const sumNumber = (a, b) => {
- return a + b
+    return a + b
 }
 
 const subtractNumber = (a, b) => {

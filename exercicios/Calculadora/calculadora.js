@@ -19,7 +19,11 @@ const squareNumber = (a) => {
 }
 
 const squareRoot = (a) => {
-    return Math.sqrt(a)
+    return a >= 0
+    ?
+    Math.sqrt(a)
+    :
+    "Números negativos não possuem raíz quadrada"
 }
 
 module.exports = {

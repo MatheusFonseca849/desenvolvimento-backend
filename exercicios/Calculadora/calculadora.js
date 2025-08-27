@@ -11,7 +11,7 @@ const multiplyNumber = (a, b) => {
 }
 
 const divideNumber = (a, b) => {
-    b === 0 ? "Não é possível dividir por 0" : a / b
+   return b === 0 ? "Não é possível dividir por 0" : a / b
 }
 
 const squareNumber = (a) => {
